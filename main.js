@@ -37,10 +37,6 @@ app.use((req, res, next) => {
 })
 
 
-
-
-
-
 app.listen(app.get('port'), function (){
 console.log('Node runing on port', app.get('port'));
 });
