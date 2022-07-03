@@ -30,12 +30,6 @@ app.post('/users', (req,res,next) => {
   })
 })
  
-app.get ('/prueba',(req,res,next) => {
-  const cosas = {
-    'frase': 'zxcvbn'
-  }
-  res.render('prueba', cosas);
-});
 
 app.use((req, res, next) => {
     res.status(404).send(
